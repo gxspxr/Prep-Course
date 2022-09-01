@@ -15,7 +15,7 @@ this.email=opciones.email,
 this.password=opciones.password
   };
 usuario.prototype.saludar= function(){
-  return 'Hola, mi nombre es ' + this.nombre
+  return 'Hola, mi nombre es ' +this.nombre
 };
 
 return usuario
@@ -91,7 +91,7 @@ function agregarMetodo() {
     var edad= this.edad
     return (nombre +', ' +edad + " años")
   }
-  
+
 }
   
 
