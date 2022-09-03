@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpaperaccess.com/full/5105465.png);
+}
+.divClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+    width: 600px;
+    border: 2px solid black  ;
+    background-color:rgb(87, 5, 73);
+    padding: 25px;
+    margin: 0 auto;
+}
